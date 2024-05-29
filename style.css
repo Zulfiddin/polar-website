@@ -28,8 +28,8 @@
     transition: color 300ms;
 }
 
-.nav .title li:hover {
-    color: rgb(255, 0, 0);
+.header_nav_list .icon:hover{
+    color: #d23166;
 }
 
 .nav .title .icon {
@@ -378,7 +378,7 @@ button {
     margin-top: 12px;
 }
 
-.raspberry {    
+.raspberry {
     padding: 60px 0 40px;
     background: linear-gradient(180deg, #f8edf0 85%, #ffffff 85%);
 }
@@ -535,4 +535,9 @@ button {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.btn_primary {
+    background-color: #d23166;
+    color: #ffffff;
 }
